@@ -1,0 +1,12 @@
+{
+  "name": "my-en-pages-project",
+  "version": "1.0.0",
+  "main": "functions/_worker.js",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "deploy": "wrangler pages publish ."
+  },
+  "devDependencies": {
+    "wrangler": "^3.67.1"
+  }
+}
